@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Khushi's Red Team Arsenal">
+<title>Khushi Singh — Red Team Arsenal</title>
+<defs>
+<style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes scanH{0%{transform:translateY(-3px);opacity:0}15%{opacity:.3}85%{opacity:.3}100%{transform:translateY(420px);opacity:0}}
+@keyframes shineX{0%{transform:translateX(-200px) skewX(-15deg)}60%,100%{transform:translateX(1100px) skewX(-15deg)}}
+@keyframes badgePop{0%{opacity:0}100%{opacity:1}}
+.badge{opacity:0;animation:badgePop .6s ease forwards}
+.cat{opacity:0;animation:badgePop .5s ease forwards}
+.scan{animation:scanH 5s linear infinite}
+.shine{animation:shineX 5s ease-in-out 3s infinite}
+]]></style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#120206"/><stop offset="100%" stop-color="#080103"/></linearGradient>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff003c;#ff3300;#ff9900;#ff003c" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#ff3300;#ff003c;#ff3300" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".05"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="clip"><rect x="1" y="1" width="898" height="418" rx="16"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".5" fill="rgba(255,0,60,.09)"/></pattern>
+</defs>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="url(#bg)"/>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="url(#dots)"/>
+<rect x="1" y="1" width="898" height="418" rx="16" fill="none" stroke="url(#tg)" stroke-width="1.5"/>
+<g clip-path="url(#clip)">
+  <rect class="scan" x="0" y="-3" width="900" height="3" fill="rgba(255,0,60,.4)"/>
+  <rect class="shine" x="0" y="0" width="60" height="420" fill="url(#shg)"/>
+</g>
+<text class="cat" x="450" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="url(#tg)" filter="url(#glow)" style="animation-delay:.1s">🎯 Red Team Arsenal</text>
+<line x1="100" y1="52" x2="800" y2="52" stroke="url(#tg)" stroke-width=".8" opacity=".4"/>
+
+<!-- RECONNAISSANCE & FUZZING -->
+<text class="cat" x="450" y="80" text-anchor="middle" font-size="11" fill="#8a99a8" letter-spacing="3" style="animation-delay:.2s">RECONNAISSANCE &amp; FUZZING</text>
+<g class="badge" style="animation-delay:.35s" transform="translate(48,90)"><rect width="124" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="62" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">🪓 Burp Suite Pro</text></g>
+<g class="badge" style="animation-delay:.42s" transform="translate(182,90)"><rect width="80" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="40" y="22" text-anchor="middle" font-size="12" fill="#ff3300" font-weight="bold">🔍 Nmap</text></g>
+<g class="badge" style="animation-delay:.49s" transform="translate(272,90)"><rect width="104" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="52" y="22" text-anchor="middle" font-size="12" fill="#ff9900" font-weight="bold">🔓 Gobuster</text></g>
+<g class="badge" style="animation-delay:.56s" transform="translate(386,90)"><rect width="86" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="43" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">⚡ ffuf</text></g>
+<g class="badge" style="animation-delay:.63s" transform="translate(482,90)"><rect width="90" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="45" y="22" text-anchor="middle" font-size="12" fill="#ff3300" font-weight="bold">🌐 Amass</text></g>
+<g class="badge" style="animation-delay:.70s" transform="translate(582,90)"><rect width="104" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="52" y="22" text-anchor="middle" font-size="12" fill="#ff9900" font-weight="bold">🦈 Wireshark</text></g>
+<g class="badge" style="animation-delay:.77s" transform="translate(696,90)"><rect width="82" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="41" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">🕵 OSINT</text></g>
+
+<!-- EXPLOITATION & WEAPONIZATION -->
+<text class="cat" x="450" y="158" text-anchor="middle" font-size="11" fill="#8a99a8" letter-spacing="3" style="animation-delay:.8s">EXPLOITATION &amp; WEAPONIZATION</text>
+<g class="badge" style="animation-delay:.9s" transform="translate(68,168)"><rect width="110" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="55" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">💥 Metasploit</text></g>
+<g class="badge" style="animation-delay:.97s" transform="translate(188,168)"><rect width="96" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="12" fill="#ff3300" font-weight="bold">💉 SQLmap</text></g>
+<g class="badge" style="animation-delay:1.04s" transform="translate(294,168)"><rect width="84" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="42" y="22" text-anchor="middle" font-size="12" fill="#ff9900" font-weight="bold">💧 Hydra</text></g>
+<g class="badge" style="animation-delay:1.11s" transform="translate(388,168)"><rect width="96" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">🔓 Hashcat</text></g>
+<g class="badge" style="animation-delay:1.18s" transform="translate(494,168)"><rect width="128" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="64" y="22" text-anchor="middle" font-size="11" fill="#ff3300" font-weight="bold">🚀 Cobalt Strike</text></g>
+<g class="badge" style="animation-delay:1.25s" transform="translate(632,168)"><rect width="100" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="50" y="22" text-anchor="middle" font-size="11" fill="#ff9900" font-weight="bold">⚡ ExploitDB</text></g>
+
+<!-- POST-EXPLOITATION & PRIV ESC -->
+<text class="cat" x="450" y="238" text-anchor="middle" font-size="11" fill="#8a99a8" letter-spacing="3" style="animation-delay:1.3s">POST-EXPLOITATION &amp; PRIVILEGE ESCALATION</text>
+<g class="badge" style="animation-delay:1.4s" transform="translate(68,248)"><rect width="112" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="56" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">🩸 BloodHound</text></g>
+<g class="badge" style="animation-delay:1.47s" transform="translate(190,248)"><rect width="98" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="49" y="22" text-anchor="middle" font-size="12" fill="#ff3300" font-weight="bold">🐱 Mimikatz</text></g>
+<g class="badge" style="animation-delay:1.54s" transform="translate(298,248)"><rect width="94" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="47" y="22" text-anchor="middle" font-size="12" fill="#ff9900" font-weight="bold">🐧 LinPEAS</text></g>
+<g class="badge" style="animation-delay:1.61s" transform="translate(402,248)"><rect width="96" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">⊞ WinPEAS</text></g>
+<g class="badge" style="animation-delay:1.68s" transform="translate(508,248)"><rect width="120" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="60" y="22" text-anchor="middle" font-size="11" fill="#ff3300" font-weight="bold">💥 CrackMapExec</text></g>
+<g class="badge" style="animation-delay:1.75s" transform="translate(638,248)"><rect width="94" height="34" rx="9" fill="#180408" stroke="#ff9900" stroke-width="1.2"/><text x="47" y="22" text-anchor="middle" font-size="12" fill="#ff9900" font-weight="bold">👑 PrivEsc</text></g>
+
+<!-- LANGUAGES & RED TEAM OS -->
+<text class="cat" x="450" y="318" text-anchor="middle" font-size="11" fill="#8a99a8" letter-spacing="3" style="animation-delay:1.8s">LANGUAGES &amp; OPERATING SYSTEMS</text>
+<g class="badge" style="animation-delay:1.9s" transform="translate(78,328)"><rect width="88" height="34" rx="9" fill="#0a1f38" stroke="#3b82f6" stroke-width="1.2"/><text x="44" y="22" text-anchor="middle" font-size="12" fill="#60a5fa" font-weight="bold">🐍 Python</text></g>
+<g class="badge" style="animation-delay:1.97s" transform="translate(176,328)"><rect width="86" height="34" rx="9" fill="#0a2e0a" stroke="#4ade80" stroke-width="1.2"/><text x="43" y="22" text-anchor="middle" font-size="12" fill="#4ade80" font-weight="bold">$ Bash</text></g>
+<g class="badge" style="animation-delay:2.04s" transform="translate(272,328)"><rect width="112" height="34" rx="9" fill="#180408" stroke="#5391fe" stroke-width="1.2"/><text x="56" y="22" text-anchor="middle" font-size="11" fill="#60a5fa" font-weight="bold">⚡ PowerShell</text></g>
+<g class="badge" style="animation-delay:2.11s" transform="translate(394,328)"><rect width="70" height="34" rx="9" fill="#2a0000" stroke="#f87171" stroke-width="1.2"/><text x="35" y="22" text-anchor="middle" font-size="12" fill="#f87171" font-weight="bold">⚙️ C/C++</text></g>
+<g class="badge" style="animation-delay:2.18s" transform="translate(474,328)"><rect width="90" height="34" rx="9" fill="#180408" stroke="#ff003c" stroke-width="1.2"/><text x="45" y="22" text-anchor="middle" font-size="12" fill="#ff003c" font-weight="bold">🐧 Kali Linux</text></g>
+<g class="badge" style="animation-delay:2.25s" transform="translate(574,328)"><rect width="96" height="34" rx="9" fill="#180408" stroke="#ff3300" stroke-width="1.2"/><text x="48" y="22" text-anchor="middle" font-size="12" fill="#ff3300" font-weight="bold">🦜 Parrot OS</text></g>
+
+<!-- Footer -->
+<text class="cat" x="450" y="398" text-anchor="middle" font-size="10" fill="#4a5a6a" letter-spacing="2" style="animation-delay:2.4s">EXPLOITDB ◆ OWASP TOP10 ◆ MITRE ATT&amp;CK ◆ KERBEROASTING ◆ COMMAND &amp; CONTROL</text>
+</svg>

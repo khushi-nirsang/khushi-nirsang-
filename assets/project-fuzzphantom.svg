@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220" role="img">
+<defs>
+<style>
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes glow { 0%, 100% { stroke-opacity: 0.4; } 50% { stroke-opacity: 1; } }
+.card { animation: float 4s ease-in-out infinite; transform-origin: center; }
+.border-glow { animation: glow 3s ease-in-out infinite; }
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#180408"/><stop offset="100%" stop-color="#080103"/></linearGradient>
+<linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ff003c"/><stop offset="100%" stop-color="#ff3300"/></linearGradient>
+</defs>
+<g class="card">
+  <rect x="10" y="10" width="280" height="200" rx="12" fill="url(#bg1)" stroke="url(#accent1)" stroke-width="1.5" class="border-glow"/>
+  <text x="30" y="45" font-size="20">🕷️</text>
+  <text x="60" y="42" font-size="16" font-weight="bold" fill="#e2e8f0">FuzzPhantom</text>
+  <text x="30" y="65" font-size="12" fill="#ff003c" font-style="italic">Web Recon &amp; Fuzzer</text>
+  <foreignObject x="30" y="80" width="240" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: #94a3b8; font-family: sans-serif; font-size: 11.5px; line-height: 1.4;">
+      High-performance web reconnaissance fuzzer &amp; crawler with real-time cyberpunk dashboard &amp; anomaly detection.
+    </div>
+  </foreignObject>
+  <rect x="30" y="145" width="55" height="20" rx="10" fill="#28040a" stroke="#ff003c" stroke-width="1"/>
+  <text x="57.5" y="159" font-size="10" fill="#ff9900" text-anchor="middle">Python</text>
+  <rect x="92" y="145" width="60" height="20" rx="10" fill="#28040a" stroke="#ff3300" stroke-width="1"/>
+  <text x="122" y="159" font-size="10" fill="#ff9900" text-anchor="middle">AsyncIO</text>
+  <rect x="159" y="145" width="68" height="20" rx="10" fill="#28040a" stroke="#ff9900" stroke-width="1"/>
+  <text x="193" y="159" font-size="10" fill="#ff9900" text-anchor="middle">RedTeam</text>
+  <rect x="30" y="175" width="240" height="25" rx="6" fill="url(#accent1)"/>
+  <text x="150" y="192" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">VIEW CODE ON GITHUB</text>
+</g>
+</svg>
